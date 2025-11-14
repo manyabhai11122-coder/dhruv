@@ -51,7 +51,7 @@ body {
 }
 
 h1 {
-   font-size: 45px;
+   font-size: 65px;
   font-weight: 900;
   margin-bottom: 5px;
   color: rgb(247, 235, 9);
@@ -64,7 +64,7 @@ h1 {
   color: white;
   margin-bottom: 15px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .description {
@@ -231,6 +231,7 @@ h3{
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
    animation: float 3s ease-in-out infinite;
 } */
+
 
 
 
