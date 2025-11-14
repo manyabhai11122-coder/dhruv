@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(180deg,#0f0110,#380d41);
+  background: linear-gradient(180deg,#360239,#110314);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -17,7 +17,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin-top: 10px;
 }
 
 
@@ -28,18 +27,18 @@ body {
   overflow: hidden;
   margin: 0 auto 15px;
   border: 5px solid rgb(235, 220, 7);
+
 }
 
 .profile-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 
 }
 
 .premium {
-  background: linear-gradient(180deg,#f1de02,#eda705);
+  background: linear-gradient(180deg,#f1de02,#d69808);
   color: black;
   font-size: 16px;
   font-weight: bold;
@@ -64,11 +63,11 @@ h1 {
   color: white;
   margin-bottom: 15px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .description {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.3;
   color: white;
   margin-bottom: 20px;
@@ -94,7 +93,8 @@ span{
   background: linear-gradient(180deg,#f1de02,#eda705);
   color: #000;
   font-weight: bold;
-  padding: 30px 60px;
+  padding: 12px 60px;
+  font-size: 25px;
   border-radius: 30px;
   text-decoration: none;
   display: inline-block;
@@ -118,14 +118,16 @@ span{
 
 .parts {
   flex: 1;
-  background: #3e0143;   
+  background: linear-gradient(180deg,#7e0484,#290231);   
   border-radius: 15px;
-  padding: 15px 10px;
+  padding: 10px 15px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  font-weight: bold;
+  
 }
 h3{
-  color: #f4f00a;
+  color: #f7da05;
 }
 
 .parts:hover {
@@ -138,7 +140,7 @@ h3{
   font-size: 15px;
   font-weight: bold;
   color: rgb(0, 204, 255);
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .limited {
@@ -146,7 +148,7 @@ h3{
   padding: 5px 25px;
   border-radius: 25px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 13px;
   font-weight: 800;
   font-size: 15px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -203,4 +205,3 @@ h3{
   }
 } 
 /* --------------------------------- */
-
